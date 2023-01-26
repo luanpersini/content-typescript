@@ -1,12 +1,11 @@
 {
-  "name": "hacker-rank-challanges",
+  "name": "Typescript-Content",
   "version": "0.0.1",
   "description": "",
   "author": "Luan Persini",
   "private": true,
   "license": "Public",
   "scripts": {
-    "start": "nest start"
   },
   "dependencies": {   
   },
