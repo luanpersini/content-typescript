@@ -1,0 +1,28 @@
+{
+  "name": "hacker-rank-challanges",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Luan Persini",
+  "private": true,
+  "license": "Public",
+  "scripts": {
+    "start": "nest start"
+  },
+  "dependencies": {   
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.3.5"
+  },
+  "engines": {
+    "node": "v18.x",
+    "npm:": "v8.x"
+  }
+}
