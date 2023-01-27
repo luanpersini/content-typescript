@@ -50,6 +50,7 @@ Now, if we run the code bellow, both operations would start their execution almo
 // =========O                     operation2                     
 // =============================O Total Elapsed Time (3 seconds)
 ```
+<br>
 
 Imagine a frontend application making 4 api calls and each one takes 1 second. With the blocking approach, it would take 4 seconds to complete the operations (1+1+1+1), while it would take only 1 second to complete all operations executing it concurrently.
 
@@ -62,3 +63,4 @@ Bellow are the code examples with blocking, concurrently and parallel promise ex
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 - https://stackoverflow.com/questions/45285129/any-difference-between-await-promise-all-and-multiple-await
+- https://www.educative.io/answers/what-is-concurrent-programming
