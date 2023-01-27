@@ -58,6 +58,7 @@ Bellow are the code examples with blocking, concurrently and parallel promise ex
 - [Async/Await and Promise.All]('examples\async-await-promise-all.ts')
 - `npx ts-node examples\async-await-promise-all.ts`
 
-## More about this topic
+### More about this topic
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+- https://stackoverflow.com/questions/45285129/any-difference-between-await-promise-all-and-multiple-await
