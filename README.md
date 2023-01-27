@@ -1,7 +1,8 @@
 # Typescript tips, tricks and other related topics.
 
-## 
+## Topics 
 
+- [Handling multiple calls with Async/Await and Promise.All](https://github.com/luanpersini/content-typescript#handling-multiple-calls-with-asyncawait-and-promiseall)
 
 ## Local Setup
 
@@ -10,7 +11,7 @@
 3. To run a file, `npx ts-node file-relative-path.ts`
 
 ---
-# Handling multiple calls with Async/Await and Promise.All
+## Handling multiple calls with Async/Await and Promise.All
 
 I will start this topic with some basic consepts:
 
