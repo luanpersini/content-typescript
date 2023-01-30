@@ -25,9 +25,8 @@ That said, i just discovered recently that i was using blocking code, instead of
 Lets that a loot at the code bellow:
 
 ```javascript
-  const operation1 = await serviceOne()
-  const operation2 = await serviceTwo() // Wait operation1 to be executed
-
+  const operation1 = await serviceOne() //3 seconds
+  const operation2 = await serviceTwo() //1 second
 // sec------1---------2---------3---------4
 // =============================O           operation1
 //                               =========O operation2                     
@@ -52,7 +51,7 @@ Now, if we run the code bellow, both operations would start their execution almo
 ```
 <br>
 
-Imagine a frontend application making 4 api calls and each one takes 1 second. With the blocking approach, it would take 4 seconds to complete the operations (1+1+1+1), while it would take only 1 second to complete all operations executing it concurrently.
+Imagine a frontend application making 4 api calls and each one takes 1 second. With the blocking approach, it would take 4 seconds to complete the operations (1+1+1+1), while it would take only 1 second to complete all operations executing concurrently.
 
 Bellow are the code examples with blocking, concurrently and parallel promise execution:
 
