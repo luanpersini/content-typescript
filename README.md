@@ -11,7 +11,7 @@
 3. To run a file, `npx ts-node file-relative-path.ts`
 
 ---
-## Handling multiple calls with Async/Await and Promise.All
+## Concurrency with async/await and promisse.all
 
 I will start this topic with some basic consepts:
 
