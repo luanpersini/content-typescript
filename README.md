@@ -51,6 +51,11 @@ Now, if we run the code bellow, both operations would start their execution almo
 ```
 <br>
 
+You can also achieve the same result with promise.all
+```javascript
+const [operation1, operation2] = Promise.all([serviceOne(), serviceTwo()])
+```
+
 Imagine a frontend application making 4 api calls and each one takes 1 second. With the blocking approach, it would take 4 seconds to complete the operations (1+1+1+1), while it would take only 1 second to complete all operations executing concurrently.
 
 Bellow are the code examples with blocking, concurrently and parallel promise execution:
