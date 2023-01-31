@@ -2,7 +2,7 @@
 
 ## Topics 
 
-- [Handling multiple calls with Async/Await and Promise.All](https://github.com/luanpersini/content-typescript#handling-multiple-calls-with-asyncawait-and-promiseall)
+- [Handling multiple calls with Async/Await and Promise.All](https://github.com/luanpersini/content-typescript#concurrency-with-asyncawait-and-promisseall)
 
 ## Local Setup
 
